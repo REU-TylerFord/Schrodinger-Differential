@@ -14,6 +14,21 @@
 		ABBA666E29B968170009401B /* Schrodinger_DifferentialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA666D29B968170009401B /* Schrodinger_DifferentialTests.swift */; };
 		ABBA667829B968170009401B /* Schrodinger_DifferentialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA667729B968170009401B /* Schrodinger_DifferentialUITests.swift */; };
 		ABBA667A29B968170009401B /* Schrodinger_DifferentialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA667929B968170009401B /* Schrodinger_DifferentialUITestsLaunchTests.swift */; };
+		ABBA668B29B968B10009401B /* Potential.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668629B968B10009401B /* Potential.swift */; };
+		ABBA668C29B968B10009401B /* Potential.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668629B968B10009401B /* Potential.swift */; };
+		ABBA668D29B968B10009401B /* Potential.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668629B968B10009401B /* Potential.swift */; };
+		ABBA668E29B968B10009401B /* Potentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668729B968B10009401B /* Potentials.swift */; };
+		ABBA668F29B968B10009401B /* Potentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668729B968B10009401B /* Potentials.swift */; };
+		ABBA669029B968B10009401B /* Potentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668729B968B10009401B /* Potentials.swift */; };
+		ABBA669129B968B10009401B /* Bounding Box .swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668829B968B10009401B /* Bounding Box .swift */; };
+		ABBA669229B968B10009401B /* Bounding Box .swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668829B968B10009401B /* Bounding Box .swift */; };
+		ABBA669329B968B10009401B /* Bounding Box .swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668829B968B10009401B /* Bounding Box .swift */; };
+		ABBA669429B968B10009401B /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668929B968B10009401B /* Functional.swift */; };
+		ABBA669529B968B10009401B /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668929B968B10009401B /* Functional.swift */; };
+		ABBA669629B968B10009401B /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668929B968B10009401B /* Functional.swift */; };
+		ABBA669729B968B10009401B /* Waves.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668A29B968B10009401B /* Waves.swift */; };
+		ABBA669829B968B10009401B /* Waves.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668A29B968B10009401B /* Waves.swift */; };
+		ABBA669929B968B10009401B /* Waves.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA668A29B968B10009401B /* Waves.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +60,11 @@
 		ABBA667329B968170009401B /* Schrodinger DifferentialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Schrodinger DifferentialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBA667729B968170009401B /* Schrodinger_DifferentialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schrodinger_DifferentialUITests.swift; sourceTree = "<group>"; };
 		ABBA667929B968170009401B /* Schrodinger_DifferentialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schrodinger_DifferentialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABBA668629B968B10009401B /* Potential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Potential.swift; sourceTree = "<group>"; };
+		ABBA668729B968B10009401B /* Potentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Potentials.swift; sourceTree = "<group>"; };
+		ABBA668829B968B10009401B /* Bounding Box .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bounding Box .swift"; sourceTree = "<group>"; };
+		ABBA668929B968B10009401B /* Functional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
+		ABBA668A29B968B10009401B /* Waves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waves.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,11 @@
 			children = (
 				ABBA665B29B968160009401B /* Schrodinger_DifferentialApp.swift */,
 				ABBA665D29B968160009401B /* ContentView.swift */,
+				ABBA668829B968B10009401B /* Bounding Box .swift */,
+				ABBA668929B968B10009401B /* Functional.swift */,
+				ABBA668629B968B10009401B /* Potential.swift */,
+				ABBA668729B968B10009401B /* Potentials.swift */,
+				ABBA668A29B968B10009401B /* Waves.swift */,
 				ABBA665F29B968170009401B /* Assets.xcassets */,
 				ABBA666129B968170009401B /* Schrodinger_Differential.entitlements */,
 				ABBA666229B968170009401B /* Preview Content */,
@@ -259,7 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBA669429B968B10009401B /* Functional.swift in Sources */,
+				ABBA669129B968B10009401B /* Bounding Box .swift in Sources */,
+				ABBA669729B968B10009401B /* Waves.swift in Sources */,
+				ABBA668B29B968B10009401B /* Potential.swift in Sources */,
 				ABBA665E29B968160009401B /* ContentView.swift in Sources */,
+				ABBA668E29B968B10009401B /* Potentials.swift in Sources */,
 				ABBA665C29B968160009401B /* Schrodinger_DifferentialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBA668F29B968B10009401B /* Potentials.swift in Sources */,
+				ABBA669229B968B10009401B /* Bounding Box .swift in Sources */,
+				ABBA669529B968B10009401B /* Functional.swift in Sources */,
+				ABBA668C29B968B10009401B /* Potential.swift in Sources */,
+				ABBA669829B968B10009401B /* Waves.swift in Sources */,
 				ABBA666E29B968170009401B /* Schrodinger_DifferentialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBA669629B968B10009401B /* Functional.swift in Sources */,
+				ABBA669329B968B10009401B /* Bounding Box .swift in Sources */,
+				ABBA669929B968B10009401B /* Waves.swift in Sources */,
+				ABBA668D29B968B10009401B /* Potential.swift in Sources */,
 				ABBA667A29B968170009401B /* Schrodinger_DifferentialUITestsLaunchTests.swift in Sources */,
+				ABBA669029B968B10009401B /* Potentials.swift in Sources */,
 				ABBA667829B968170009401B /* Schrodinger_DifferentialUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
